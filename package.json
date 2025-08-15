@@ -1,0 +1,21 @@
+{
+  "name": "mern-applications",
+  "version": "1.0.0",
+  "description": "This project is a simple note-taking app built with the MERN stack. The backend uses Node.js/Express and MongoDB, and the frontend is built with React.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismailumutluoglu/MERN-APPLICATIONS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismailumutluoglu/MERN-APPLICATIONS/issues"
+  },
+  "homepage": "https://github.com/ismailumutluoglu/MERN-APPLICATIONS#readme"
+}
