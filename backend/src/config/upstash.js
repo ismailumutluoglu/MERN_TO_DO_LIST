@@ -12,7 +12,7 @@ dotenv.config()
 // 10 saniyede 5 istek limiti
 const ratelimit = new Ratelimit({
     redis: Redis.fromEnv(),
-    limiter: Ratelimit.fixedWindow(5, "10 s"),
+    limiter: Ratelimit.fixedWindow(10, "20 s"),
     analytics: true,
 });
 
